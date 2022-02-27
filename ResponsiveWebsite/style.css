@@ -1,0 +1,165 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.container {
+  flex-direction: column;
+  justify-content: flex-end;
+  display: flex;
+  width: 1000px;
+
+  height: 100%;
+  /* padding-right: 800px; */
+}
+
+.block2--website {
+  display: flex;
+
+  padding: 50px;
+  color: white;
+  font-size: 20px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  background-image: url(photo-1473093295043-cdd812d0e601.webp);
+  background-size: cover;
+  height: 75vh;
+  margin-bottom: px;
+}
+.block1--website {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 0px;
+}
+.container1 {
+  padding-left: 12px;
+  padding-right: 12px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1291px;
+  margin-bottom: 100px;
+  margin-top: 100px;
+  padding-top: 20px;
+  padding-bottom: 15px;
+}
+.block3 {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+.block3--image {
+  display: flex;
+  margin-right: 40px;
+  margin-left: 120px;
+
+  flex: 50%;
+}
+.heading {
+  font-size: 30px;
+  font-family: "Optima";
+}
+.block3--content {
+  display: flex;
+  flex: 50%;
+  font-family: "Baskerville";
+  text-align: center;
+  margin-top: 150px;
+  flex-direction: column;
+}
+.block3--contentHeding {
+  font-size: 30px;
+  margin-bottom: 20px;
+  font-family: "Optima";
+}
+.block3--contentHeading2 {
+  margin-bottom: 20px;
+  font-size: 18px;
+  font-family: "Avanta Garde";
+}
+.block3--content p h3 {
+  text-align: center;
+  margin-top: 50px;
+  display: flex;
+}
+.block3--image img {
+  height: 100%;
+  width: 100%;
+}
+.container2 {
+  padding-left: 12px;
+  padding-right: 12px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 70px;
+  padding-top: 15px;
+  padding-bottom: 25px;
+}
+.block4 {
+  display: flex;
+  justify-content: space-between;
+}
+.block4--content {
+  margin-left: 140px;
+  margin-bottom: 0px;
+}
+.block4--contentHeding {
+  margin-bottom: 25px;
+  font-size: 29px;
+  text-align: center;
+  font-family: "Optima";
+}
+
+.p1 {
+  font-size: 17px;
+}
+.p2 {
+  font-size: 22px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  font-family: "Baskerville";
+}
+
+.block4--image {
+  display: flex;
+  /* margin-right: 10px;
+  margin-left: 100px; */
+  margin-right: 100px;
+  margin-left: 120px;
+
+  flex: 50%;
+}
+.block4--image img {
+  height: 80%;
+  width: 100%;
+}
+.navbar {
+  width: 200%;
+  height: 90px;
+}
+.navbar ul {
+  float: right;
+  margin-right: 90px;
+  margin-left: 10px;
+}
+.navbar ul li {
+  margin: 10px;
+
+  display: inline-block;
+  font-size: 20px;
+  font-family: "Optima";
+  color: black;
+}
+.navbar ul a:hover {
+  background-color: goldenrod;
+  border-radius: 2px;
+}
+.container-contact {
+  margin-left: 90px;
+  margin-top: 0px;
+  margin-bottom: 100px;
+  padding-top: 20px;
+}
+.footer2 {
+  font-size: 25px;
+  float: right;
+  margin-right: 0px;
+}

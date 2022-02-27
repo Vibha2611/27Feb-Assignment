@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Website Page</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <style>
+        
+        input[type="email"],
+        
+        input[type="date"] ,
+        input[type="text"] ,
+        details{
+          margin: 0 50px 20px 50px;
+          padding: 15px;
+          width: 86%;
+          height: 90%;
+          outline: none;
+        
+        }
+        input[type="textarea"]{
+            margin: 0 50px 20px 50px;
+          padding: 35px;
+          width: 83%;
+          height: 90%;
+          outline: none;
+
+        }
+        input[type="textarea"]:hover {
+          background: bisque;
+        }
+        input[type="text"]:hover {
+          background: bisque;
+        }
+        input[type="email"]:hover {
+          background: bisque;
+        }
+
+        button {
+          background-color: lightgrey;
+          color: black;
+  
+        margin-left:50px;
+        
+          width:13%;
+          height:50px;
+           padding-top:7px;
+          font-family: "Optium";
+          /* padding-right: 0px;
+          padding-left: 0px;
+           */
+          font-size: 20px;
+          /* font-weight: bold; */
+        }
+  
+        
+  
+  
+        
+      </style>
+  </head>
+  <body>
+    <section class="block1--website">
+      <nav class="navbar">
+        <ul>
+          
+        
+          <li><a href="#block3--contentHeding">About</a></li>
+          <li><a href="#block4--website">Menu</a></li>
+          <li><a href="#contact-form">Contact</a></li>
+        
+        </ul>
+      </nav>
+    </section>
+
+    <section class="block2--website">
+      <div class="container">
+        <div class="heading">
+          <header>
+            <h1 style="color:black;">Le Pastiano</h1>
+            <p style="color:black;font-size: 20px;font-style: italic; ">Expect the best..</p>
+          </header>
+        </div>
+        </div>
+
+       
+    </section>
+    
+    <section class="block3--website" id="block3--contentHeding">
+      <div class="container1">
+        <div class="block3">
+          <div class="block3--image">
+            <img class="menu1-image" src="1.jpg" />
+          </div>
+          <div class="block3--content">
+              
+            <p>
+              <h4 class="block3--contentHeding" > About Pastiano </h3>
+              <h6 class="block3--contentHeading2"> Tradition since 1889</h5>
+              Tradition since 1889 The Catering was founded in
+              blabla by Mr. Smith in lorem ipsum dolor sit amet, consectetur
+              adipiscing elit consectetur adipiscing elit, sed do eiusmod tempor
+              incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+              veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+              ex ea commodo consequat. Duis aute iruredolor in reprehenderit in
+              voluptate velit esse cillum dolore eu fugiat nulla pariatur.We
+              only use seasonal ingredients. Excepteur sint occaecat cupidatat
+              non proident, sunt in culpa qui officia deserunt mollit anim id
+              est laborum consectetur adipiscing elit, sed do eiusmod
+              temporincididunt ut labore et dolore magna aliqua. Ut enim ad
+              minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+              aliquip ex ea commodo consequat.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="block4--website" id="block4--website">
+        <div class="container2">
+       
+            <div class="block4">
+        <div class="block4--content">
+            <h5 class="block4--contentHeding"> Our Menu</h5>
+            <p>
+                <p class="p2"><em>Bread Basket</em></p>
+                <p  class="p1">Assortment of fresh baked fruit breads and muffins 5.50</p>
+            </p>
+            
+            <p>
+                <p class="p2"> <em>Honey Almond Granola with Fruits</em></p2>
+
+<p  class="p1">Natural cereal of honey toasted oats, raisins, almonds and dates 7.00</p>
+            </p>
+            <p>
+                <p class="p2"><em>Belgian Waffle </em></p>
+                <p  class="p1">Vanilla flavored batter with malted flour 7.50</p>
+            </p>
+
+            <p>
+                <p class="p2"><em>Scrambled Eggs</em></p>
+                <p  class="p1">Scrambled eggs, roasted red pepper and garlic, with green onions 7.50</p>
+            </p>
+            <p>
+                <p class="p2"><em>Blueberry Pancakes</em></p>
+                <p  class="p1">With syrup, butter and lots of berries 8.50</p>
+            </p>
+
+
+
+
+
+        </div>
+        <div class="block4--image">
+            <img class="menu2--image" src="2.jpg">
+
+        </div>
+    </div>
+</div>
+    </section>
+
+    <section class="contact-form" id="contact-form">
+        <div class="container-contact">
+
+            <h2 style="margin-left:50px; margin-bottom:20px">Contact Us</h2>
+            <!-- <p>Please fill the below details.</p> -->
+            <form action="" method="post">
+                <label for="fullname"></label>
+              <input type="text" name="fullName" placeholder="Enter your full name" />
+      
+              <label for="email"></label>
+              <input
+                type="email"
+                name="email"
+                placeholder="Enter your mail"
+                required
+              />
+              
+              
+              <label for="dod"></label>
+              <input type="date" name="date" >
+
+              <label for="message"></label>
+              <input type="textarea" name="message" placeholder="Message/ Special requirements">
+              
+              <details>
+                <summary style="font-size:20px;font-family:'Optima' ; font-style: italic;">Our Speciality</summary>
+                <p style="margin-top: 15px;font-size: 20px;"> Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod temporincididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+              </details>
+      
+
+       
+      
+              <button type="submit">Send Message</button>
+              
+            </form>
+            
+
+        </div>
+
+
+
+
+
+
+    </section>
+
+
+
+    <section class="footer-Content">
+      <footer>
+
+        <section class="footer-Content2">
+            <div class="footer2">
+                <p style="font-style: italic;"> Reach Out To Us : </p>
+                <p>HG street, Karunapallali, Palayan Nagar, Bengaluru, Karnataka, India 560065
+                </p>
+                <email>pastanio@gmail.com</email>
+                <br>
+                <phone>9121314151</phone>
+            </div>
+        </section>
+
+          <section class="location">
+              <div class="location-division">
+        <iframe id="inlineFrameExample"
+        title="Inline Frame Example"
+        width="100%"
+        height="600px"
+        src="https://www.openstreetmap.org/export/embed.html?bbox=-0.004017949104309083%2C51.47612752641776%2C0.00030577182769775396%2C51.478569861898606&layer=mapnik">
+    </iframe>
+</div>
+</section>
+<p style="text-align:center;font-size: 20px;font-family: Optima;">Created by Vibha Choubey</p>
+<br>
+<p style="text-align:center;font-style: italic;">vibhachoubey1307@outlook.com</p>
+
+      </footer>
+    </section>
+  </body>
+</html>
